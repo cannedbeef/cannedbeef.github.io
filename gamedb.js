@@ -41,7 +41,7 @@ window.games = {
 		"name": "Cookie Clicker",
 		"tags": ["idle", "classic"],
 		"credits": "Orteil",
-		"alt-links": ["https://orteil.dashnet.org/cookieclicker/"],
+		"alt-links": ["https://orteil.dashnet.org/cookieclicker/", "https://stormyskitten.github.io/CookieClickerUnblocked/", "https://cookieclickernew.com/", "https://cookieclicker.eu/cookieclicker/", "https://cookieclickerunblocked.site/"],
 		"description": "probably the most well known idle game, build a (very ethical) cookie empire, and generate septendecillions of cookies in the background.",
 		"iframe": "./iframes/cookieclicker/index.html",
 		"external": false,
