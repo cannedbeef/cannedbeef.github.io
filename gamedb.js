@@ -19,5 +19,15 @@ window.games = {
 		"description": "you're an alien running through space tunnels. i think it has a story? idk though.",
 		"iframe": "https://lekug.github.io/tn6pS9dCf37xAhkJv/",
 		"thumbnail": "thumbnails/run3.png"
+	},
+
+	"stickmanhook": {
+		"name": "Stickman Hook",
+		"tags": ["classic", "infinite"],
+		"credits": "madbox (hosted by anonymous gitlab user)",
+		"alt-links": ["https://harshulgoon.github.io/iframes/stickman.html", "https://stickman-hook.bitbucket.io/", "https://stickmanhook.bitbucket.io/", "https://stickmanhook-unblocked.github.io/", "https://poki.com/en/g/stickman-hook", "https://www.zgames.io/game/stickman-hook-unblocked-free-browser-game", "https://mathplayzone.com/stickman-hook/"],
+		"description": "swing through (technically) infinite levels, you can go stupidly fast if you spam",
+		"iframe": "https://stickmanhook.gitlab.io/file/",
+		"thumbnail": "thumbnails/stickmanhook.png"
 	}
 }
