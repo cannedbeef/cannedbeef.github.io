@@ -29,5 +29,15 @@ window.games = {
 		"description": "swing through (technically) infinite levels, you can go stupidly fast if you spam",
 		"iframe": "https://stickmanhook.gitlab.io/file/",
 		"thumbnail": "thumbnails/stickmanhook.png"
+	},
+
+	"cookieclicker": {
+		"name": "Cookie Clicker",
+		"tags": ["idle", "classic"],
+		"credits": "Orteil (hosted by stormyskitten on github)",
+		"alt-links": ["https://orteil.dashnet.org/cookieclicker/"],
+		"description": "probably the most well known idle game, build a (very ethical) cookie empire, and generate septendecillions of cookies in the background.",
+		"iframe": "./iframes/cookieclicker/index.html",
+		"thumbnail": "thumbnails/cookieclicker.png"
 	}
 }
