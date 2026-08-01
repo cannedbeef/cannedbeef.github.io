@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+
+		<script src="gamedb.js" defer></script>
+		<script src="settings.js" defer></script>
+		<script src="play.js" defer></script>
+
+<style>
+html, body, iframe {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+</style>
+	</head>
+
+	<body>
+		<div id="no-game-warning" hidden>
+			<h2>no game selected!</h2>
+			<a href="/">click here to go back</a>
+		</div>
+		<iframe id="game-frame" class="game-frame"></iframe>
+	</body>
+</html>

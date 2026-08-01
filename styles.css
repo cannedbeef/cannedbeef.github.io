@@ -1,0 +1,40 @@
+:root[data-theme="light"] {
+	--bg: #dddddd;
+	--game-bg: #cccccc;
+	--text: #111111;
+}
+
+:root[data-theme="dark"] {
+	--bg: #111111;
+	--game-bg: #222222;
+	--text: #cccccc;
+}
+
+body {
+	background: var(--bg);
+	color: var(--text);
+
+	font-family: monospace;
+}
+
+.games {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.game {
+	background: var(--game-bg);
+}
+
+.game-info {
+	margin: 10px;
+}
+
+.game_image {
+	max-width: 100%;
+}
+
+.game-frame {
+	border: none;
+}
