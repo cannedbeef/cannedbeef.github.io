@@ -13,6 +13,9 @@ for (const [id, game] of Object.entries(window.games)) {
 	for (const link of game["alt-links"]) {
 		alt_links_html += "<li><a href=" + link + ">" + link + "</a></li>";
 	}
+
+	const external_hosted_message = game["external"] ? "externally hosted" : "internally hosted";
+
 	link.innerHTML = `
 		<div class="game-info">
 			<h3>${game["name"]}</h3>
@@ -24,7 +27,7 @@ for (const [id, game] of Object.entries(window.games)) {
 				</details>
 				<details>
 					<summary>Additional Information</summary>
-					<p>credits: ${game["credits"]}<br>iframe link: ${game["iframe"]}<br>id: ${id}</p>
+					<p>credits: ${game["credits"]}<br>iframe link: ${game["iframe"]}<br>id: ${id}<br>${external_hosted_message}</p>
 				</details>
 			</small>
 		</div>
