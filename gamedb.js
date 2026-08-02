@@ -28,7 +28,7 @@ window.games = {
 
 	"stickmanhook": {
 		"name": "Stickman Hook",
-		"tags": ["3d", "classic", "infinite"],
+		"tags": ["2d", "classic", "infinite"],
 		"credits": "Madbox (hosted by stickmanhook on gitlab)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/stickman.html", "https://stickman-hook.bitbucket.io/", "https://stickmanhook.bitbucket.io/", "https://stickmanhook-unblocked.github.io/", "https://poki.com/en/g/stickman-hook", "https://www.zgames.io/game/stickman-hook-unblocked-free-browser-game", "https://mathplayzone.com/stickman-hook/"],
 		"description": "swing through (technically) infinite levels, you can go stupidly fast if you spam",
@@ -39,7 +39,7 @@ window.games = {
 
 	"cookieclicker": {
 		"name": "Cookie Clicker",
-		"tags": ["idle", "classic"],
+		"tags": ["quality", "idle", "classic", "story_basic"],
 		"credits": "Orteil",
 		"alt-links": ["https://orteil.dashnet.org/cookieclicker/", "https://stormyskitten.github.io/CookieClickerUnblocked/", "https://cookieclickernew.com/", "https://cookieclicker.eu/cookieclicker/", "https://cookieclickerunblocked.site/"],
 		"description": "probably the most well known idle game, build a (very ethical) cookie empire, and generate septendecillions of cookies in the background.",
@@ -50,7 +50,7 @@ window.games = {
 
 	"balatro": {
 		"name": "Balatro",
-		"tags": ["2d", "port"],
+		"tags": ["quality", "2d", "port"],
 		"credits": "localthunk (port by harshulsilverspoon on github)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/balatro.html"],
 		"description": "weirdly addicting poker-based roguelike. play poker hands to gain absurd amounts of points.",
