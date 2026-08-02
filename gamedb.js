@@ -46,5 +46,16 @@ window.games = {
 		"iframe": "./iframes/cookieclicker/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/cookieclicker.png"
+	},
+
+	"balatro": {
+		"name": "Balatro",
+		"tags": ["2d", "port"],
+		"credits": "localthunk (port by harshulsilverspoon on github)",
+		"alt-links": ["https://harshulgoon.github.io/iframes/balatro.html"],
+		"description": "weirdly addicting poker-based roguelike. play poker hands to gain absurd amounts of points.",
+		"iframe": "./iframes/balatro/index.html",
+		"external": false,
+		"thumbnail": "thumbnails/balatro.png"
 	}
 }
