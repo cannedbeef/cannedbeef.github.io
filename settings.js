@@ -4,7 +4,7 @@
 const THEMES = [["light", "Light theme"], ["dark", "Dark theme"]];
 const TITLES = [
 	["default", "Unmasked", "cannedbeef's game collection", "icons/default.png"],
-	["compass_home", "Compass Homepage", "Compass | Home", "icons/compass.png"]
+	["compass_home", "Compass Homepage", "Home | Compass", "icons/compass.png"]
 ]
 
 const theme_select = document.getElementById("theme-select");
