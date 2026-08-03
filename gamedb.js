@@ -57,5 +57,16 @@ window.games = {
 		"iframe": "./iframes/balatro/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/balatro.png"
+	},
+
+	"celeste": {
+		"name": "Celeste",
+		"tags": ["quality", "2d", "port"],
+		"credits": "EXOC games (hosted by harshulsilverspoon on github, port by genizy and MercuryStudio)",
+		"alt-links": ["https://harshulgoon.github.io/iframes/celeste.html", "https://kosmikau.github.io/platformer/", "https://0288007.github.io/celeste/", "https://skibidi-math.github.io/celeste/"],
+		"description": "2d platformer with stupidly fun movement and a good story. gets REALLY difficult by the end.",
+		"iframe": "https://harshulsilverspoon.github.io/celeste/",
+		"external": true,
+		"thumbnail": "thumbnails/celeste.png"
 	}
 }
