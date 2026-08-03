@@ -68,5 +68,16 @@ window.games = {
 		"iframe": "https://harshulsilverspoon.github.io/celeste/",
 		"external": true,
 		"thumbnail": "thumbnails/celeste.png"
+	},
+
+	"cloverpit": {
+		"name": "Clover Pit",
+		"tags": ["quality", "3d", "port"],
+		"credits": "Panik Arcade (port by breadbb)",
+		"alt-links": ["https://harshulgoon.github.io/iframes/cloverpit.html", "https://gn-math.dev/?id=716"],
+		"description": "rig the machine to pay off your (definately not endless) debt. i think it's a roguelike? idk never played it.",
+		"iframe": "./iframes/cloverpit/index.html",
+		"external": false,
+		"thumbnail": "thumbnails/cloverpit.png"
 	}
 }
