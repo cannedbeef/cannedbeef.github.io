@@ -27,14 +27,21 @@
 				<summary>how to request a game</summary>
 				<ul>
 					<li>if you have a github account, create a github issue on <a href="https://github.com/cannedbeef/cannedbeef.github.io">this site's repo</a> (prefered)</li>
-					<li>alternatively, fill out this <a href="https://forms.gle/ENpMwjSpTLzstKos5">google form</a></li>
+					<li>alternatively, fill out this <a href="https://forms.gle/VXQAb43mbbjEUr7F8">google form</a></li>
 				</ul>
 			</details>
 			<details>
 				<summary>how to add a game yourself</summary>
 				<ul>
 					<li>find an existing port or link to this game</li>
-					<li>assuming you have a github account, and know how too, create a pull request on <a href="https://github.com/cannedbeef/cannedbeef.github.io">this site's repo</a> that adds this game to `gamedb.js`, as well as a thumbnail</li>
+					<li>make sure it's either a <i>*.github.io</i> or <i>*.gitlab.io</i> link
+						<ul><li>alternatively, create a subdirectory in <i>iframes/</i>, in case you want to make changes to the game or code around it. if you do this, remember to set "external"=false</li></ul></li>
+					<li>make sure it contains only the game, no extra ui or ads or anything
+						<ul><li>a tip for finding these links: most sites that host games have the game in an iframe with the ui around it, so use your browser's inspect tool to grab the raw link the iframme uses</li></ul></li>
+					<li>assuming you have a github account, and know how too, create a pull request on <a href="https://github.com/cannedbeef/cannedbeef.github.io">this site's repo</a> that adds this game to <i>gamedb.js</i>, as well as a thumbnail</li>
+						<ul><li>just copy the entires for another game and change theme, hopefully it shouldn't be too hard to figure out how it works</li></ul></li>
+					<li>remember to add any alternate links to the game that you can find</li>
+					<li>REMEMBER TO CREDIT THE CREATOR OF THE GAME, THE CREATOR OF THE WEB PORT, AND (if external,) THE OWNER OF THE LINKED REPO</i>
 				</ul>
 			</details>
 		</div>
