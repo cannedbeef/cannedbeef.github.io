@@ -79,5 +79,16 @@ window.games = {
 		"iframe": "./iframes/cloverpit/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/cloverpit.png"
+	},
+
+	"ultrapool":  {
+		"name": "Ultra Pool",
+		"tags": ["quality", "port"],
+		"credits": "Icedrop Games  (port by mysmic, hosted by ParrrotVR on github)",
+		"alt-links": ["https://parrrotvr.github.io/ultrapoolwebport/", "https://gn-math.dev/?id=757", "https://harshulgoon.github.io/iframes/ultrapool.html"],
+		"description": "roguelike pool (billards), buy upgrades to your balls and stuff idk. this shit is for you dylan songur, i don't give a fuck about it.",
+		"iframe": "https://parrrotvr.github.io/ultrapoolwebport/",
+		"external": true,
+		"thumbnail": "thumbnails/ultrapool.png"
 	}
 }
