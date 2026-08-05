@@ -1,4 +1,6 @@
-// list of all games on the site
+// list of all games and tags on the site
+
+window.game_tags = {"platformer": "Platformer", "idle": "Idle", "2d": "2D", "3d": "3D", "classic": "Classic", "infinite": "Infinite", "quality": "High Quality", "port": "Web Port", "roguelike": "Roguelike", "story_basic": "Basic Story"};
 
 // "external: true" means the iframe loads someone elses webpage
 // "external: false" means the iframe loads a webpage inside this repo. these mightn't work using file://...
@@ -28,7 +30,7 @@ window.games = {
 
 	"stickmanhook": {
 		"name": "Stickman Hook",
-		"tags": ["2d", "classic", "infinite"],
+		"tags": ["2d", "classic", "infinite", "platformer"],
 		"credits": "Madbox (hosted by stickmanhook on gitlab)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/stickman.html", "https://stickman-hook.bitbucket.io/", "https://stickmanhook.bitbucket.io/", "https://stickmanhook-unblocked.github.io/", "https://poki.com/en/g/stickman-hook", "https://www.zgames.io/game/stickman-hook-unblocked-free-browser-game", "https://mathplayzone.com/stickman-hook/"],
 		"description": "swing through (technically) infinite levels, you can go stupidly fast if you spam",
@@ -50,7 +52,7 @@ window.games = {
 
 	"balatro": {
 		"name": "Balatro",
-		"tags": ["quality", "2d", "port"],
+		"tags": ["quality", "2d", "port", "roguelike"],
 		"credits": "localthunk (port by harshulsilverspoon on github)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/balatro.html"],
 		"description": "weirdly addicting poker-based roguelike. play poker hands to gain absurd amounts of points.",
@@ -61,7 +63,7 @@ window.games = {
 
 	"celeste": {
 		"name": "Celeste",
-		"tags": ["quality", "2d", "port"],
+		"tags": ["quality", "2d", "port", "platformer"],
 		"credits": "EXOC games (hosted by harshulsilverspoon on github, port by genizy and MercuryStudio)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/celeste.html", "https://kosmikau.github.io/platformer/", "https://0288007.github.io/celeste/", "https://skibidi-math.github.io/celeste/"],
 		"description": "2d platformer with stupidly fun movement and a good story. gets REALLY difficult by the end.",
@@ -72,7 +74,7 @@ window.games = {
 
 	"cloverpit": {
 		"name": "Clover Pit",
-		"tags": ["quality", "3d", "port"],
+		"tags": ["quality", "3d", "port", "roguelike"],
 		"credits": "Panik Arcade (port by breadbb)",
 		"alt-links": ["https://harshulgoon.github.io/iframes/cloverpit.html", "https://gn-math.dev/?id=716"],
 		"description": "rig the machine to pay off your (definately not endless) debt. i think it's a roguelike? idk never played it.",
@@ -83,7 +85,7 @@ window.games = {
 
 	"ultrapool":  {
 		"name": "Ultra Pool",
-		"tags": ["quality", "port"],
+		"tags": ["quality", "port", "roguelike"],
 		"credits": "Icedrop Games  (port by mysmic, hosted by ParrrotVR on github)",
 		"alt-links": ["https://parrrotvr.github.io/ultrapoolwebport/", "https://gn-math.dev/?id=757", "https://harshulgoon.github.io/iframes/ultrapool.html"],
 		"description": "roguelike pool (billards), buy upgrades to your balls and stuff idk. this shit is for you dylan songur, i don't give a fuck about it.",

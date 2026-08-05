@@ -49,8 +49,20 @@
 			</details>
 		</div>
 
-		<!-- filled by js -->
-		<ul id="games-list" class="games"></ul>
+		<details open>
+			<summary><h3 style="display:inline-block">search filters</h3></summary>
+
+			<!-- filled by js -->
+			<div id="search-filters"></div>
+
+			<button style="margin-top: 10px" type="button" onclick="apply_filters()">Apply</button>
+			<button type="button" onclick="reset_filters()">Reset</button>
+		</details>
+
+		<div style="margin-top: 20px;border-top:2px solid var(--highlight)">
+			<!-- filled by js -->
+			<ul id="games-list" class="games"></ul>
+		</div>
 
 		<small>I do not profit off this page.<br>Unless explicitly specified, I do not own nor claim to own any of the listed games.<br>If the owner of any of these games contacts me to delist them, I will do so.</small>
 	</body>

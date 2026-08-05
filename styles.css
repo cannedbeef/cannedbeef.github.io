@@ -1,12 +1,14 @@
 :root[data-theme="light"] {
 	--bg: #dddddd;
 	--game-bg: #cccccc;
+	--highlight: #aaaaaa;
 	--text: #111111;
 }
 
 :root[data-theme="dark"] {
 	--bg: #111111;
 	--game-bg: #222222;
+	--highlight: #666666;
 	--text: #cccccc;
 }
 
@@ -17,10 +19,16 @@ body {
 	font-family: monospace;
 }
 
+#search-filters {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
 .games {
 	display: grid;
 	gap: 16px;
 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	padding-left: 0px;
 }
 
 .game {
