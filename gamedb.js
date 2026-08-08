@@ -112,7 +112,7 @@ window.games = {
 		"tags": ["quality", "3d", "racing", "editor"],
 		"credits": "Kodub (cloned by NotReallyRx on github)",
 		"alt-links": ["https://kodub.com/apps/polytrack", "https://www.crazygames.com/game/polytrack", "https://kodub.itch.io/polytrack"],
-		"description": "low-poly racing game with a level editor. i think this is the only github.io site with the latest version; i could be wrong.<br>if kodub.com is blocked, leaderboards and multiplayer won't work. ",
+		"description": "low-poly racing game with a level editor. i think this is the only github.io site with the latest version; i could be wrong.",
 		"iframe": "./iframes/polytrack/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/polytrack.png"
