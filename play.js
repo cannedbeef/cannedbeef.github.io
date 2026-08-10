@@ -16,6 +16,8 @@ if (game_id) {
 		message.innerHTML = `
 			<h1>Polytrack Disclaimer</h1>
 			<p>Due to technical reasons, and security systems on the server's side, polytrack leaderboards do not work by default on non-official sites. THIS IS POSSIBLE TO BYPASS, yet if you don't care, simply press "Done".</p>
+			<small>sadly, if <i>kodub.com</i> is blocked, leaderboards will not work even if you do this, however if you open the game where it's NOT blocked, all your scores will update, so if you care about leaderboards i still reccomend doing this.</small>
+			<br><br>
 			<details>
 				<summary>I do care</summary>
 				<h3>Installation</h3>
@@ -49,6 +51,7 @@ if (game_id) {
 				<p>Save with Ctrl+S (or press the <i>+Save rule</i> button)</p>
 				<p>Once alllllllll of that is done, polytrack should be tricked into thinking it's running on the official site, and will actually load leaderboards, and save your own scores to them.</p>
 			</details>
+			<br>
 			<button type="button" onclick="document.getElementById('game-specific').hidden=true;load_game('polytrack')">Done</button>
 		`;
 		message.hidden = false;
