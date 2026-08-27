@@ -21,6 +21,8 @@ function load_filters() {
 }
 
 function load_games(disallowed_tags, forced_tags) {
+	const fancy_select = document.getElementById("fancy-select");
+	
 	const games_list = document.getElementById("games-list");
 	games_list.replaceChildren();
 
@@ -52,6 +54,9 @@ function load_games(disallowed_tags, forced_tags) {
 		const link = document.createElement("article");
 
 		link.classList.add("game");
+		if (fancy_select.value == "enabled") {
+			link.classList.add("glow_hover");
+		}
 
 		const thumbnail = game["thumbnail"] ?? "https://dummyimage.com/600x400/000/fff.png&text=[no+image]";
 

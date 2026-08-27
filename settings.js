@@ -10,9 +10,11 @@ const TITLES = [
 
 const theme_select = document.getElementById("theme-select");
 const title_select = document.getElementById("title-select");
+const fancy_select = document.getElementById("fancy-select");
 
 const is_menu = (document.getElementById("settings-menu") != null)
 
+// fill settings
 if (is_menu) {
 	for (const theme of THEMES) {
 		const theme_option = document.createElement("option");
@@ -77,6 +79,18 @@ function set_title(title_name) {
 	icon_link.setAttribute("href", TITLES[title_id][3]);
 }
 
+function set_fancy(fancy_enabled) {
+	console.log("settings fancy", fancy_enabled);
+	const games = document.getElementById("games-list").children;
+	for (const game of games) {
+		if (fancy_enabled == "enabled") {
+			game.classList.add("glow_hover");
+		} else {
+			game.classList.remove("glow_hover");
+		}
+	}
+}
+
 const default_theme = localStorage.getItem("theme") ?? "default";
 console.log("default theme", default_theme);
 set_theme(default_theme);
@@ -103,3 +117,15 @@ if (is_menu) {
 	});
 }
 
+const default_fancy = localStorage.getItem("fancy") ?? "enabled";
+console.log("default fancy", default_fancy);
+set_fancy(default_fancy);
+if (is_menu) {
+	fancy_select.value = default_fancy;
+
+	fancy_select.addEventListener("change", (e) => {
+		const value = e.target.value;
+		localStorage.setItem("fancy", value);
+		set_fancy(value);
+	});
+}

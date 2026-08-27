@@ -35,6 +35,10 @@ body {
 	background: var(--game-bg);
 }
 
+.game.glow_hover:hover {
+	box-shadow: 0 0 16px rgba(255, 50, 50, 0.8);
+}
+
 .game-info {
 	margin: 10px;
 }
