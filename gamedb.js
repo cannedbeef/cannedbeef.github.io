@@ -12,7 +12,8 @@ window.game_tags = {
 	"roguelike": "Roguelike",
 	"story_basic": "Basic Story",
 	"editor": "Level Editor",
-	"racing": "Racing"
+	"racing": "Racing",
+	"horror": "Horror"
 };
 
 // "external: true" means the iframe loads someone elses webpage
@@ -116,5 +117,16 @@ window.games = {
 		"iframe": "./iframes/polytrack/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/polytrack.png"
+	},
+
+	"buckshotroulette": {
+		"name": "Buckshot Roulette",
+		"tags": ["quality", "3d", "port", "horror"],
+		"credits": "Mike Klubnika (port by... whoever made buckshotroulette.online. idk they didn't credit themselves)",
+		"alt-links": ["https://harshulgoon.github.io/iframes/buckshot.html", "https://www.gameflare.com/online-game/buckshot-roulette/", "https://genizymath.github.io/games/buckshot-roulette/", "https://buckshotroulette.online/steam/"],
+		"description": "high stakes russian roulette against someone who'll definitely play by the rules. i think the lighting is a little broken in the port so the dealer looks kinda goofy idk",
+		"iframe": "./iframes/buckshotroulette/index.html",
+		"external": false,
+		"thumbnail": "thumbnails/buckshotroulette.png"
 	}
 }
