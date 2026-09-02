@@ -155,9 +155,10 @@ function mergeFiles(fileParts) {
 				resolve(mergedFileUrl);
 				return;
 			}
-			console.log("fetching " + (index + 1));
+			const message = "fetching " + (index + 1) + "/" + fileParts.length;
+			console.log(message);
 			setStatusMode("notice");
-			setStatusNotice("fetching " + (index + 1));
+			setStatusNotice(message);
 			fetch(fileParts[index]).then((response) => {
 				if (!response.ok) throw new Error("Missing part: " + fileParts[index]);
 				return response.arrayBuffer();
