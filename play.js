@@ -14,15 +14,6 @@ if (!game_id || window.games[game_id] == undefined) {
 }
 console.log("playing game", game_id);
 
-// apply the coi-serviceworker on some games (currently only buckshot)
-// this prevents iframes loading external links (bad for some games for hopefully obvious reasons) but enables some features that some engines use
-// the version of coi-serviceworker is modified to unload itself automatically so it doesn't get applied for one game and linger for others (bad)
-if (game_id == "buckshotroulette") {
-	const coiscript = document.createElement("script");
-	coiscript.src = "coi-serviceworker.min.js";
-	document.head.appendChild(coiscript);
-}
-
 if (game_id == "polytrack") {
 	message = document.getElementById("game-specific");
 	message.innerHTML = `
