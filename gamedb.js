@@ -128,5 +128,16 @@ window.games = {
 		"iframe": "./iframes/buckshotroulette/index.html",
 		"external": false,
 		"thumbnail": "thumbnails/buckshotroulette.png"
+	},
+
+	"worldshardestgame": {
+		"name": "Worlds Hardest Game",
+		"tags": ["2d", "classic"],
+		"credits": "Stephan Critoph (hosted by rycellgames on github)",
+		"alt-links": ["https://buttertoasty.github.io/Bowl/hardestgame.html", "https://ubg365.github.io/worlds-hardest-game/", "https://moyaimoment.github.io/flash/worldshardestgame/", "https://hub-pro.github.io/games/hardestgame/index.html"],
+		"description": "actually not that hard to be honest. this is the newer html version, severel other sites have the older flash version.",
+		"iframe": "https://rycellgames.github.io/raw/games/worldshardestgame/index.html",
+		"external": true,
+		"thumbnail": "thumbnails/worldshardestgame.png"
 	}
 }
