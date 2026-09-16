@@ -139,5 +139,16 @@ window.games = {
 		"iframe": "https://rycellgames.github.io/raw/games/worldshardestgame/index.html",
 		"external": true,
 		"thumbnail": "thumbnails/worldshardestgame.png"
+	},
+
+	"idlebreakout": {
+		"name": "Idle Breakout",
+		"tags": ["idle", "2d", "classic"],
+		"credits": "kodiqi (hosted by nintendoboi22 on github)",
+		"alt-links": ["https://nintendoboi22.github.io/games/idle-breakout/", "https://idlebreakoutonline.github.io/", "https://idlebreakout-game.github.io/", "https://duckmath-online.github.io/g/idle-breakout/", "https://idle-breakout.github.io/"],
+		"description": "when you're lowkey a locust swarm and you see a fresh untouched field of grain",
+		"iframe": "https://nintendoboi22.github.io/games/idle-breakout/",
+		"external": true,
+		"thumbnail": "thumbnails/idlebreakout.png"
 	}
 }
