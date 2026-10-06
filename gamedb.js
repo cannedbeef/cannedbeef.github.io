@@ -13,7 +13,8 @@ window.game_tags = {
 	"story_basic": "Basic Story",
 	"editor": "Level Editor",
 	"racing": "Racing",
-	"horror": "Horror"
+	"horror": "Horror",
+	"rage": "Rage Game"
 };
 
 // "external: true" means the iframe loads someone elses webpage
@@ -132,7 +133,7 @@ window.games = {
 
 	"worldshardestgame": {
 		"name": "Worlds Hardest Game",
-		"tags": ["2d", "classic"],
+		"tags": ["2d", "classic", "rage"],
 		"credits": "Stephan Critoph (hosted by rycellgames on github)",
 		"alt-links": ["https://buttertoasty.github.io/Bowl/hardestgame.html", "https://ubg365.github.io/worlds-hardest-game/", "https://moyaimoment.github.io/flash/worldshardestgame/", "https://hub-pro.github.io/games/hardestgame/index.html"],
 		"description": "actually not that hard to be honest. this is the newer html version, severel other sites have the older flash version.",
@@ -150,5 +151,16 @@ window.games = {
 		"iframe": "https://nintendoboi22.github.io/games/idle-breakout/",
 		"external": true,
 		"thumbnail": "thumbnails/idlebreakout.png"
+	},
+
+	"gettingoverit": {
+		"name": "Getting Over It",
+		"tags": ["3d", "quality", "port", "rage"],
+		"credits": "Bennit Foddy (port by genizy on github)",
+		"alt-links": [],
+		"description": "this port removes some background objects and stuff to make it run faster, but it\'s still the actual getting over it, not that shitty scratch version",
+		"iframe": "https://cannedbeef-webports.github.io/gettingoverit-webport/",
+		"external": true,
+		"thumbnail": "thumbnails/gettingoverit.png"
 	}
 }
