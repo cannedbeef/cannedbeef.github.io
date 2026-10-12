@@ -162,5 +162,16 @@ window.games = {
 		"iframe": "https://cannedbeef-webports.github.io/gettingoverit-webport/",
 		"external": true,
 		"thumbnail": "thumbnails/gettingoverit.png"
+	},
+
+	"geometrydash": {
+		"name": "Geometry Dash",
+		"tags": ["2d", "quality", "port", "rage", "infinite", "editor", "classic"],
+		"credits": "RobTop (port my m4in_mc, archived by yoylecakefake)",
+		"alt-links": "https://yoylecakefake.github.io/geometrydash/",
+		"description": "this isn't the shitty scratch version this is the ACTUAL GAME, with SERVER ACCESS AND THE LEVEL EDITOR, it crashes a bit but still.",
+		"iframe": "https://cannedbeef-webports.github.io/geometrydash-webport/",
+		"external": true,
+		"thumbnail": "thumbnails/geometrydash.png"
 	}
 }
