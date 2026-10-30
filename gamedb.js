@@ -173,5 +173,16 @@ window.games = {
 		"iframe": "https://cannedbeef-webports.github.io/geometrydash-webport/",
 		"external": true,
 		"thumbnail": "thumbnails/geometrydash.png"
+	},
+
+	"clustertruck": {
+		"name": "Cluster Truck",
+		"tags": ["3d", "port", "infinite", "platformer"],
+		"credits": "Landfall Games (port by notrexed for wasm.rip)",
+		"alt-links": ["https://wasm.rip/files/ClusterTruck/clustertruck.html"],
+		"description": "prime youtube shorts background gameplay.",
+		"iframe": " https://cannedbeef-webports.github.io/clustertruck-webport/",
+		"external": true,
+		"thumbnail": "thumbnails/clustertruck.png"
 	}
 }
